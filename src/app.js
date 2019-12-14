@@ -3,6 +3,7 @@ class UI{
         this.userid = document.getElementById("userid");
         this.userForm = document.getElementById("user-form");
     }
+
 submitUserForm() {
     console.log("inside method");
     const value = this.userid.value;
