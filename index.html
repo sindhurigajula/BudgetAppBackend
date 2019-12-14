@@ -1,0 +1,59 @@
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="all.css">
+    <style>
+    div {
+        background-color:aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h2> Welcome to Budget App!</h2>
+    <div class="userinput">
+        <form id="user-form" class=" user-form">
+            <label>Please enter your user id here: </label>
+            <input id="userid" type="text"/>
+            </br>
+            <input type="button" name="getuser" value="Get User"/>
+        </form>
+    </div>
+    <div class="budgetinput">
+        <form id="budget-form" class=" budget-form">
+            <label>Please enter you budget here: </label>
+            <input id="budget" type="text"/>
+            </br>
+            <input type="button" name="addbudget" value="Add Budget"/>
+        </form>
+    </div>
+ 
+    <div>
+        <div style="float:left; width:33%">
+            <h4>BUDGET</h4>
+            <span class="budget-icon"><i class="fas fa-money-bill-wave"></i></span>
+            <span>10,000</span>
+        </div>
+        <div  style="float:left; width:33%">
+            <h4>EXPENSE</h4>
+            <span class="expense-icon"><i class="fas fa-money-check-alt"></i></span>
+            <span>5,000</span>
+        </div>
+        <div  style="float:left; width:33%">
+            <h4>BALANCE</h4>
+            <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
+            <span>5,000</span>
+        </div>
+    </div>
+    </br>
+    <div>
+        <h4>Expense List</h4>
+        <li>Rent - 1000</li>
+        <li>Food - 1000</li>
+        <li>Utilities - 500</li>
+        <li> Transport - 500</li>
+        <li>Others - 1000</li>
+    </div>
+     <!-- script js -->
+     <script src="bundle.js"></script>
+     <script src="app1.js"></script>
+</body>
